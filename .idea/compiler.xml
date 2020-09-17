@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="CK3ModTools.CK3ModTools.main~1" target="14" />
+      <module name="CK3ModTools.CK3ModTools.test~1" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
