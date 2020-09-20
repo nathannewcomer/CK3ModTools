@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="CK3ModTools.CK3ModTools.main~1" target="14" />
-      <module name="CK3ModTools.CK3ModTools.test~1" target="14" />
+      <module name="CK3ModTools.CK3ModTools.main" target="14" />
+      <module name="CK3ModTools.CK3ModTools.test" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>

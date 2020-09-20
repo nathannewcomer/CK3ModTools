@@ -3,72 +3,72 @@ package CK3ModTools;
 public enum Terrain {
 	PLAINS {
 		public String toString() {
-			return "Plains";
+			return "plains";
 		}
 	},
     FARMLANDS {
 		public String toString() {
-			return "Farmlands";
+			return "farmlands";
 		}
 	},
     HILLS {
 		public String toString() {
-			return "Hills";
+			return "hills";
 		}
 	},
     MOUNTAINS {
 		public String toString() {
-			return "Mountains";
+			return "mountains";
 		}
 	},
     DESERT {
 		public String toString() {
-			return "Desert";
+			return "desert";
 		}
 	},
     DESERT_MOUNTAINS {
 		public String toString() {
-			return "Desert Mountains";
+			return "desert_mountains";
 		}
 	},
     OASIS {
 		public String toString() {
-			return "Oasis";
+			return "oasis";
 		}
 	},
     JUNGLE {
 		public String toString() {
-			return "Jungle";
+			return "jungle";
 		}
 	},
     FOREST {
 		public String toString() {
-			return "Forest";
+			return "forest";
 		}
 	},
     TAIGA {
 		public String toString() {
-			return "Taiga";
+			return "taiga";
 		}
 	},
     WETLANDS {
 		public String toString() {
-			return "Wetlands";
+			return "wetlands";
 		}
 	},
     STEPPE {
 		public String toString() {
-			return "Steppe";
+			return "steppe";
 		}
 	},
     FLOODPLAINS {
 		public String toString() {
-			return "Floodplains";
+			return "floodplains";
 		}
 	},
     DRYLANDS {
 		public String toString() {
-			return "Drylands";
+			return "drylands";
 		}
 	}
 }

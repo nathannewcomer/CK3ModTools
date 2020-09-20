@@ -5,29 +5,29 @@ import java.util.List;
 
 public class Province {
 
-	private int number;
+	private int id;
     private Color color;
     private String name;
-    public Climate climate;
-    public List<Integer> adjacencies;
+    private Climate climate;
+    private List<Integer> adjacencies;
     // position potentially to be implemented
-    public Terrain terrain;
+    private Terrain terrain;
     
     public Province() {
-    	setNumber(-1);
+    	setId(-1);
     	setColor(null);
     	setName("undefined");
-    	climate = null;
+    	climate = Climate.NO_WINTER;
     	adjacencies = null;
-    	terrain = null;
+    	terrain = Terrain.PLAINS;
     }
 
-	public int getNumber() {
-		return number;
+	public int getId() {
+		return id;
 	}
 
-	public void setNumber(int number) {
-		this.number = number;
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public Color getColor() {

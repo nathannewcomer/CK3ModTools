@@ -14,14 +14,7 @@ This is a tool designed for the fast modification of Crusader Kings III. It was 
 To be implemented
 
 ## How do I contribute?
-This was made using Eclipse, so the instructions will set up the Eclipse environment. It may be possible to use other IDEs, but has not been tested.
-- Download Eclipse for Java
-- Download a JDK, JDK 14 was used but the newest version should work as well.
-- Install the e(fx)clipse extension for Eclipse
-- (Recommended) Install SceneBuilder \- this allows you to edit the layout in a GUI environment and get immediate feedback.
-- Pull the repository
-- Edit the code
-- Submit a pull request
+To be implemented
 
 ## What may be implemented in the future?
 Here are some features I would like to have 

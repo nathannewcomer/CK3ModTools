@@ -56,7 +56,7 @@ public class FXMLController {
     	provincesImage.setImage(image);
     	
     	//TODO: have this run on a new thread
-    	provinces = FileHandler.loadProvinces(rootDirectory.getPath() + "\\map_data\\definition.csv");
+    	provinces = FileHandler.loadProvinces(rootDirectory.getPath());
     }
     
     // only used to disable left click (and middle mouse) for scrolling
@@ -88,12 +88,20 @@ public class FXMLController {
     	
     	// get province and display info
     	if (provinces.containsKey(provColor)) {
-    		Province province = provinces.get(provColor); 
+    		//Province province = provinces.get(provColor);
+			Province province = provinces.get(provColor);
     		color.setText("R: " + provColor.getRed() + " G: " + provColor.getGreen() + " B: " + provColor.getBlue());
     		name.setText(province.getName());
-    		
-    		//climateCombo.setValue(province.getClimate().toString());
-    		//terrainCombo.setValue(value);
+
+    		// set climate and terrain combos to appropriate values
+    		if (!climateCombo.isVisible()) {
+    			climateCombo.setVisible(true);
+			}
+    		if (!terrainCombo.isVisible()) {
+    			terrainCombo.setVisible(true);
+			}
+    		climateCombo.setValue(province.getClimate().toString());
+    		terrainCombo.setValue(province.getTerrain().toString());
     	} else {
     		color.setText("Could not find province");
     	}

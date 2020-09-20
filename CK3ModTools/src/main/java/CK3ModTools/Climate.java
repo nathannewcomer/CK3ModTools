@@ -3,22 +3,22 @@ package CK3ModTools;
 public enum Climate {
 	NO_WINTER {
 		public String toString() {
-			return "No Winter";
+			return "no_winter";
 		}
 	},
     MILD_WINTER {
 		public String toString() {
-			return "Mild Winter";
+			return "mild_winter";
 		}
 	},
     NORMAL_WINTER {
 		public String toString() {
-			return "Normal Winter";
+			return "normal_winter";
 		}
 	},
     SEVERE_WINTER {
 		public String toString() {
-			return "Severe Winter";
+			return "severe_winter";
 		}
 	}
 }
