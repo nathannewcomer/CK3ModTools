@@ -23,6 +23,7 @@ import javafx.stage.DirectoryChooser;
 
 public class FXMLController {
 
+	@FXML private Label idLabel;
     @FXML private Label color;
     @FXML private Label name;
     @FXML private MenuBar menuBar;
@@ -88,8 +89,10 @@ public class FXMLController {
     	
     	// get province and display info
     	if (provinces.containsKey(provColor)) {
-    		//Province province = provinces.get(provColor);
 			Province province = provinces.get(provColor);
+
+			// set values in GUI
+			idLabel.setText("ID: " + province.getId());
     		color.setText("R: " + provColor.getRed() + " G: " + provColor.getGreen() + " B: " + provColor.getBlue());
     		name.setText(province.getName());
 

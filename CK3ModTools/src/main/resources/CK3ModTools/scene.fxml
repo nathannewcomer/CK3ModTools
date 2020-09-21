@@ -37,6 +37,7 @@
   				<Tab fx:id="map" text="Map">
   					<VBox>
                   		<children>
+                     <Label fx:id="idLabel" />
                      		<Label fx:id="color" alignment="CENTER" />
                      		<Label fx:id="name" alignment="CENTER" />
                      		<ComboBox fx:id="climateCombo" prefWidth="150.0" promptText="Climate" visible="false" />
