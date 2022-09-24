@@ -1,3 +1,5 @@
+# THIS CODE IS NOT BEING WORKED ON ANYMORE. SEE OTHER REPOS TO FIND CK3 MOD TOOLS THAT I AM USING TO MAKE THE VINLAND MOD
+
 # CK3ModTools
 This is a tool designed for the fast modification of Crusader Kings III. It was designed with total conversion mods in mind, but can also be used with the base game. The goal with this project is to provide tools to modders to make mod creation as fast and as easy as possible. The origin of this project started when the creator (nathannewcomer) wanted to make a total conversion mod for Crusader Kings II, but found few mod tools to aid him with tasks like creating thousands of provinces easily.
 
